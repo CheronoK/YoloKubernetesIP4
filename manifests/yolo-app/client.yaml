@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: yolo-client-deployment
   labels:
-    app: frontend
+    app: client
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: frontend
+      app: client
   template:
     metadata:
       labels:
-        app: frontend
+        app: client
     spec:
       containers:
         - name: yolo-client
