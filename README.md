@@ -1,7 +1,7 @@
 # YoloKubernetesIP4
 This repository contains all the necessary files and instructions for deploying a set of Docker containers to Google Kubernetes Engine (GKE) using manifest files, NGINX as a service and MongoDB as the database.
 
-The site can be run on ## In this case the IP is  [35.225.114.41:32021](35.225.114.41:32021)
+The site can be run on [35.225.114.41:32021](https://35.225.114.41:32021)
 
 ## Requirements
 To run this ensure the following are installed:
